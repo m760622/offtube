@@ -6,7 +6,7 @@ target 'Offtube' do
   use_frameworks!
 
   # Pods for Offtube
-  pod 'Alamofire', '~> 4.2.0'
+  pod 'Alamofire', '~> 4.5.0'
   pod 'Alamofire-Synchronous', '~> 4.0'
   pod 'SwiftyJSON', '~> 3.1.4'
   pod 'SwiftFormat/CLI'

@@ -6,3 +6,5 @@ Fixes
 
 Known Issues
 - n/a
+
+This project is open sourcve. Get the source code at https://github.com/doertydoerk/offtube.

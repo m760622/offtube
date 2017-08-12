@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CDE93498326FDF4D6404503630A0259B8253CFAD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CDE93498326FDF4D6404503630A0259B8253CFAD" : 9223372036854775807,
+    "A19FC14E404A9648D21B4DAC96FE13DE05551E49" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "753D651A-8B33-404E-A351-C72C18264EB3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CDE93498326FDF4D6404503630A0259B8253CFAD" : "Offtube\/",
+    "A19FC14E404A9648D21B4DAC96FE13DE05551E49" : "..\/..\/..\/Desktop\/YouTubeGetVideoInfoAPIParser"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Offtube",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Offtube.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sonsongithub\/YouTubeGetVideoInfoAPIParser",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A19FC14E404A9648D21B4DAC96FE13DE05551E49"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com:doertydoerk\/offtube.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CDE93498326FDF4D6404503630A0259B8253CFAD"
+    }
+  ]
+}

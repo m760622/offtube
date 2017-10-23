@@ -23,25 +23,27 @@ class MainViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // The viewModel has already been  initialized as the Datasoure via the Stroryboard
+        // The viewModel has already been initialized as the Datasoure via the Stroryboard
         tableView.dataSource = model
         tableView.delegate = self
         model.viewController = self
         clearsSelectionOnViewWillAppear = true
-
-        // NavBar
-        navigationItem.rightBarButtonItem = editButtonItem
-        navigationItem.rightBarButtonItem?.tintColor = .white
-        navigationController?.navigationBar.barTintColor = UIColor(red: 0.87, green: 0.18, blue: 0.19, alpha: 1.00)
-        navigationController?.navigationBar.isTranslucent = false
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        setupNavBarItems()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tableView.reloadData()
     }
-
+	
+	func setupNavBarItems(){
+		navigationItem.rightBarButtonItem = editButtonItem
+		navigationItem.rightBarButtonItem?.tintColor = .white
+		navigationController?.navigationBar.barTintColor = UIColor(red: 0.87, green: 0.18, blue: 0.19, alpha: 1.00)
+		navigationController?.navigationBar.isTranslucent = false
+		navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+	}
+	
     // MARK: Actions
     @IBAction func deleteAllTapped(_: UIBarButtonItem) {
         model.deleteAllVideos()

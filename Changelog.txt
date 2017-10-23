@@ -1,8 +1,8 @@
-New Features
+Waht's new?
 - n/a
 
 Fixes
-- Fix: App stürzt ab, wenn man den Video Player View verlässt.
+- n/a
 
 Known Issues
 - n/a
